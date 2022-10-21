@@ -1,0 +1,95 @@
+.navbar li {
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: black;
+}
+/* carousel */
+
+.carousel-item {
+    height:500px;
+}
+
+.carousel-img-1 {
+    background: url('../img/image1.jpeg');
+    background-size: cover;
+}
+
+.carousel-img-2 {
+    background: url('../img/image2.jpeg');
+    background-size: cover;
+}
+
+.carousel-img-3 {
+    background: url('../img/image3.jpeg');
+    background-size: cover;
+}
+
+/* ready section */
+
+#ready-section{
+    background-image: url(../img/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+
+.dark-overlay {
+    background-color: rgba(0,0,0,0.8);
+    min-height: 250px;
+}
+
+/* bs4 section */
+
+.bs4 {
+    background-image: url(../img/people.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+
+.play-color {
+    color : red;
+}
+
+/* footer */
+
+footer {
+    background: black;
+}
+
+/* about section */
+
+#about {
+    background: url(../img/image1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about-info img {
+    width: 350px;
+    height: 350px;
+}
+
+/* testimonials */
+
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+    
+}
+
+/* media query */
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 40px !important;
+    }
+    p {
+        font-size: 14px !important;
+    }
+    
+}
